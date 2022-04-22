@@ -1,0 +1,125 @@
+body{
+    font-family: 'Roboto Serif',
+    sans-serif;
+}
+.list {
+    list-style: none;
+}
+
+
+
+       /* header */
+.logo{
+text-decoration: none;
+font-family: 'Raleway',
+sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+
+.logo-black{
+    color: #000;
+}
+
+.nav-list a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.16;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.nav-list a:hover,
+.nav-list a:focus{
+    color: #2196F3;
+}
+.header-tel {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.header-mail {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.header-tel:hover,
+.header-tel:focus{
+    color: #2196F3;
+}
+.header-mail:hover,
+.header-mail:focus {
+    color: #2196F3;
+}       
+      /* 1 */
+
+.hero{
+    background-color: #2F303A;
+}
+.hero-main{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+ .hero-button{
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF; 
+ }
+
+
+.footer{
+    background: #2F303A;
+}
+.white{
+    color: #fff;
+}
+.footer-list a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71; 
+    letter-spacing: 0.03em;
+    color: #fff;
+}
+
+/* portfolio */
+.button{
+    font-family: 'Roboto',
+    sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    height: 38px;
+    width: auto;
+}
+.button:hover{
+    background-color: #2196F3;
+    cursor: pointer;
+}
