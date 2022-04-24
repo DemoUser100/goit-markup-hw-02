@@ -1,19 +1,26 @@
+:root{
+    --accent-color:#2196F3;
+}
+body{
+    font-family: 'Roboto', Arial, Helvetica, 
+    sans-serif;
+}
 .list {
     list-style: none;
 }
 .accent{
-    color: #2196F3;
+    color: var(--accent-color);
 }
                                   /* header */
 .logo{
-text-decoration: none;
-font-family: 'Raleway',
-sans-serif;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color: #2196F3;
+    text-decoration: none;
+    font-family: 'Raleway', Arial, Helvetica,
+    sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
 }
 
 .logo-black{
@@ -21,8 +28,6 @@ color: #2196F3;
 }
 
  a{
-    font-family: 'Roboto Serif',
-    sans-serif;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -33,11 +38,9 @@ color: #2196F3;
 
 .nav-list a:hover,
 .nav-list a:focus{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .header-tel {
-    font-family: 'Roboto Serif',
-    sans-serif;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -46,8 +49,6 @@ color: #2196F3;
     color: #757575;
 }
 .header-mail {
-    font-family: 'Roboto Serif',
-    sans-serif;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -57,11 +58,11 @@ color: #2196F3;
 }
 .header-tel:hover,
 .header-tel:focus{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .header-mail:hover,
 .header-mail:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }       
                                      /* 1 */
 
@@ -69,8 +70,6 @@ color: #2196F3;
     background-color: #2F303A;
 }
 .hero-main{
-    font-family: 'Roboto Serif',
-    sans-serif;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -80,12 +79,10 @@ color: #2196F3;
 }
 
  .hero-button{
-    font-family: 'Roboto Serif',
-    sans-serif;
     width: 200px;
     height: 50px;
     border-radius: 4px;
-    background-color: #2196F3;
+    background-color: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     font-weight: 700;
     font-size: 16px;
@@ -95,8 +92,6 @@ color: #2196F3;
  }
                                     /* 2 */
 .section-title{
-    font-family: 'Roboto Serif',
-    sans-serif;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -106,8 +101,6 @@ color: #2196F3;
 }
 
 .menu-list{
-    font-family: 'Roboto Serif',
-    sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -124,8 +117,6 @@ color: #2196F3;
     color: #fff;
 }
 .footer-list a{
-    font-family: 'Roboto Serif',
-    sans-serif;
     text-decoration: none;
     font-style: normal;
     font-weight: 400;
@@ -137,7 +128,7 @@ color: #2196F3;
 
                                /* portfolio */
 .button{
-    font-family: 'Roboto',
+    font-family: 'Roboto', Arial, Helvetica, 
     sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -151,12 +142,12 @@ color: #2196F3;
     width: auto;
 }
 .button-accent{
-    background-color: #2196F3;
+    background-color: var(--accent-color);
     color: #fff;
 }
 .button:hover,
 .button:focus {
-    background-color: #2196F3;
+    background-color: var(--accent-color);
     color: #fff;
     cursor: pointer;
 }
